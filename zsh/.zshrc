@@ -6,7 +6,7 @@ export ZSH="/Users/eeshaan/.oh-my-zsh"
 ZSH_THEME="spaceship" # https://github.com/denysdovhan/spaceship-prompt
 
 # plugins
-plugins=(git zsh-autosuggestions zsh-completions)
+plugins=(git zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
 
 # scripts
 source $ZSH/oh-my-zsh.sh
