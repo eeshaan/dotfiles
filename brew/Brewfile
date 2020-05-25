@@ -1,34 +1,71 @@
+# third-party repos
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "khanhas/tap"
-brew "gotop"
-brew "libtool"
-brew "imagemagick"
-brew "neofetch"
-brew "node"
-brew "pfetch"
-brew "pipes-sh"
-brew "python"
-brew "ruby"
-brew "thefuck"
-brew "youtube-dl"
+tap "mas-cli/tap"
+
+# zsh plugins
 brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
-brew "khanhas/tap/spicetify-cli"
-cask "appcleaner"
-cask "blackhole"
-cask "chromium"
+
+# command line tools
+brew "ffmpeg"
+brew "gifski"
+brew "imagemagick"
+brew "thefuck"
+brew "youtube-dl"
+brew "mas-cli/tap/mas"
+
+# rice
+brew "gotop"
+brew "neofetch"
+brew "pfetch"
+brew "pipes-sh"
+
+# languages
+brew "python"
+brew "ruby"
+brew "node"
+
+# gui apps
+cask "appcleaner" # easy macOS uninstaller
+cask "blackhole" # stereo mix for macOS 
+cask "chromium" # chrome w/o the tracking
 cask "figma"
 cask "firefox"
 cask "flux"
-cask "github"
-cask "iina"
+cask "github" # GitHub Desktop
+cask "iina" # video player
 cask "iterm2"
-cask "keka"
-cask "nisus-thesaurus"
-cask "spotify"
-cask "transmission"
+cask "keka" # archive utility
+cask "nisus-thesaurus" # great thesauraus that has shortcut binding
+cask "smcfancontrol" # override default MacBook fan curve
+cask "transmission" # torrenting client
 cask "visual-studio-code"
+
+# spotify w/ theming agent
+cask "spotify"
+brew "khanhas/tap/spicetify-cli"
+
+# mac app store apps
+mas "Spark", id: 1176895641
+
+
+# paid apps
+# (uncomment to install)
+
+# cask "bartender" # hide menu bar icons
+# cask "alfred" # application launcher + more
+# cask "sketch"
+# cask "rightfont" # font manager
+# mas "Pikka", id: 1195076754 # simple color picker
+# mas "BetterSnapTool", id: 417375580 # window management tool
+
+
+# other apps i use
+
+# Adobe Photoshop
+# Adobe Illustrator
