@@ -29,6 +29,7 @@ brew "pipes-sh"
 brew "python"
 brew "ruby"
 brew "node"
+brew "java11"
 
 # gui apps
 cask "appcleaner" # easy macOS uninstaller
