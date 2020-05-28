@@ -23,6 +23,7 @@ fi
 eval $(thefuck --alias)
 alias pro="cd ~/Desktop/_programming"
 alias lc="colorls -A --sd"
+alias pipes="pipes.sh -c 1234567"
 
 # (foot) bindings
 bindkey '^ ' autosuggest-accept
