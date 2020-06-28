@@ -25,11 +25,15 @@ brew "neofetch"
 brew "pfetch"
 brew "pipes-sh"
 
-# languages
+# languages and language support
 brew "python"
 brew "ruby"
 brew "node"
 brew "java11"
+brew "openjdk@11"
+brew "php"
+brew "mysql"
+brew "composer"
 
 # gui apps
 cask "appcleaner" # easy macOS uninstaller
@@ -45,7 +49,7 @@ cask "keka" # archive utility
 cask "nisus-thesaurus" # great thesauraus that has shortcut binding
 cask "smcfancontrol" # override default MacBook fan curve
 cask "transmission" # torrenting client
-cask "visual-studio-code"
+cask "vscodium" # open-source binary release of VS Code
 
 # spotify w/ theming agent
 cask "spotify"

@@ -16,8 +16,11 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='code'
+  export EDITOR='codium'
 fi
+
+# composer
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # aliases
 eval $(thefuck --alias)
