@@ -19,14 +19,26 @@ else
   export EDITOR='codium'
 fi
 
+# golang
+export GOPATH=$HOME/golang
+export GOROOT=/usr/local/opt/go/libexec
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOROOT/bin
+
 # composer
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-# aliases
+# general aliases
 eval $(thefuck --alias)
 alias pro="cd ~/Desktop/_programming"
+alias c="codium ."
 alias lc="colorls -A --sd"
 alias pipes="pipes.sh -c 1234567"
+
+# brew aliases
+alias bup="brew update && brew upgrade && brew cask upgrade --greedy && mas upgrade"
+alias bcl="brew cleanup"
 
 # (foot) bindings
 bindkey '^ ' autosuggest-accept
